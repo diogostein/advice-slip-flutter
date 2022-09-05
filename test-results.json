@@ -1,0 +1,59 @@
+{"protocolVersion":"0.1.1","runnerVersion":"1.20.2","pid":31680,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/home/distein/Projects/flutter/advice_slip/test/modules/advice/data/advice_slip_remote_data_source_impl_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /home/distein/Projects/flutter/advice_slip/test/modules/advice/data/advice_slip_remote_data_source_impl_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"suite":{"id":2,"platform":"vm","path":"/home/distein/Projects/flutter/advice_slip/test/modules/advice/data/advice_slip_repository_impl_test.dart"},"type":"suite","time":11}
+{"test":{"id":3,"name":"loading /home/distein/Projects/flutter/advice_slip/test/modules/advice/data/advice_slip_repository_impl_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":11}
+{"count":5,"time":13,"type":"allSuites"}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":null}}]
+
+[{"event":"test.startedProcess","params":{"observatoryUri":null}}]
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2471}
+{"group":{"id":4,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":null,"column":null,"url":null},"type":"group","time":2480}
+{"test":{"id":5,"name":"it should call the client get method","suiteID":0,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":28,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/data/advice_slip_remote_data_source_impl_test.dart"},"type":"testStart","time":2482}
+{"testID":5,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2583}
+{"test":{"id":6,"name":"it should return the correct advice slip entity given a successful network call","suiteID":0,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":42,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/data/advice_slip_remote_data_source_impl_test.dart"},"type":"testStart","time":2584}
+{"testID":6,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2594}
+{"test":{"id":7,"name":"it should throw a server exception given a unsuccessful network call","suiteID":0,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":56,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/data/advice_slip_remote_data_source_impl_test.dart"},"type":"testStart","time":2594}
+{"testID":7,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2606}
+{"suite":{"id":8,"platform":"vm","path":"/home/distein/Projects/flutter/advice_slip/test/modules/advice/presentation/store/advice_slip_store_test.dart"},"type":"suite","time":2638}
+{"test":{"id":9,"name":"loading /home/distein/Projects/flutter/advice_slip/test/modules/advice/presentation/store/advice_slip_store_test.dart","suiteID":8,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2638}
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2746}
+{"group":{"id":10,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":null,"column":null,"url":null},"type":"group","time":2747}
+{"test":{"id":11,"name":"it should get a random advice slip from remote data source","suiteID":2,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":27,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/data/advice_slip_repository_impl_test.dart"},"type":"testStart","time":2747}
+{"testID":11,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2830}
+{"test":{"id":12,"name":"it should get the correct random advice slip from remote data source","suiteID":2,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":42,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/data/advice_slip_repository_impl_test.dart"},"type":"testStart","time":2830}
+{"testID":12,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2839}
+{"test":{"id":13,"name":"it should return a server failure when the remote data source throws a server exception","suiteID":2,"groupIDs":[10],"metadata":{"skip":false,"skipReason":null},"line":57,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/data/advice_slip_repository_impl_test.dart"},"type":"testStart","time":2839}
+{"testID":13,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2848}
+{"suite":{"id":14,"platform":"vm","path":"/home/distein/Projects/flutter/advice_slip/test/modules/advice/domain/entities/advice_slip_entity_test.dart"},"type":"suite","time":2863}
+{"test":{"id":15,"name":"loading /home/distein/Projects/flutter/advice_slip/test/modules/advice/domain/entities/advice_slip_entity_test.dart","suiteID":14,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2863}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":null}}]
+
+[{"event":"test.startedProcess","params":{"observatoryUri":null}}]
+{"testID":9,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3600}
+{"group":{"id":16,"suiteID":8,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":null,"column":null,"url":null},"type":"group","time":3601}
+{"test":{"id":17,"name":"it should return a advice slip entity from use case","suiteID":8,"groupIDs":[16],"metadata":{"skip":false,"skipReason":null},"line":46,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/presentation/store/advice_slip_store_test.dart"},"type":"testStart","time":3601}
+{"testID":17,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3685}
+{"test":{"id":18,"name":"it should return a success state with advice slip entity data encapsulated","suiteID":8,"groupIDs":[16],"metadata":{"skip":false,"skipReason":null},"line":61,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/presentation/store/advice_slip_store_test.dart"},"type":"testStart","time":3686}
+{"testID":18,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3708}
+{"test":{"id":19,"name":"it should return a error state with a message string encapsulated","suiteID":8,"groupIDs":[16],"metadata":{"skip":false,"skipReason":null},"line":81,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/presentation/store/advice_slip_store_test.dart"},"type":"testStart","time":3709}
+{"testID":19,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3717}
+{"suite":{"id":20,"platform":"vm","path":"/home/distein/Projects/flutter/advice_slip/test/modules/advice/domain/usecases/get_random_advice_slip_test.dart"},"type":"suite","time":3732}
+{"test":{"id":21,"name":"loading /home/distein/Projects/flutter/advice_slip/test/modules/advice/domain/usecases/get_random_advice_slip_test.dart","suiteID":20,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":3732}
+{"testID":15,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3819}
+{"group":{"id":22,"suiteID":14,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":3820}
+{"test":{"id":23,"name":"it should return a valid advice slip entity mapped from json response","suiteID":14,"groupIDs":[22],"metadata":{"skip":false,"skipReason":null},"line":12,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/domain/entities/advice_slip_entity_test.dart"},"type":"testStart","time":3820}
+{"testID":23,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3857}
+
+[{"event":"test.startedProcess","params":{"observatoryUri":null}}]
+{"testID":21,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":4513}
+{"group":{"id":24,"suiteID":20,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":null,"column":null,"url":null},"type":"group","time":4514}
+{"test":{"id":25,"name":"it should get a random advice slip from repository","suiteID":20,"groupIDs":[24],"metadata":{"skip":false,"skipReason":null},"line":29,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/domain/usecases/get_random_advice_slip_test.dart"},"type":"testStart","time":4514}
+{"testID":25,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4567}
+{"test":{"id":26,"name":"it should get the correct random advice slip from repository","suiteID":20,"groupIDs":[24],"metadata":{"skip":false,"skipReason":null},"line":44,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/domain/usecases/get_random_advice_slip_test.dart"},"type":"testStart","time":4567}
+{"testID":26,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4576}
+{"test":{"id":27,"name":"it should return a failure from repository when do not succeed","suiteID":20,"groupIDs":[24],"metadata":{"skip":false,"skipReason":null},"line":59,"column":3,"url":"file:///home/distein/Projects/flutter/advice_slip/test/modules/advice/domain/usecases/get_random_advice_slip_test.dart"},"type":"testStart","time":4577}
+{"testID":27,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4582}
+{"success":true,"type":"done","time":4598}
