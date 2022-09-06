@@ -46,9 +46,11 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: "12.x"
+      - uses: kuhnroyal/flutter-fvm-config-action@v1
       - uses: subosito/flutter-action@v1
         with:
           channel: "stable"
+          flutter-version: "2.10.5"
       - run: flutter pub get
       - run: flutter clean
       - run: flutter build ios -t lib/main.dart --release --no-codesign
@@ -62,9 +64,11 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: "12.x"
+      - uses: kuhnroyal/flutter-fvm-config-action@v1
       - uses: subosito/flutter-action@v1
         with:
           channel: "stable"
+          flutter-version: "2.10.5"
       - run: flutter pub get
       - run: flutter clean
       - run: flutter build appbundle -t lib/main.dart --release
